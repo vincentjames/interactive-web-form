@@ -1,25 +1,27 @@
 /* Basic Style */
 body {
-	background-color: #fff;
-	color: #333;
-	font-family: 'Lato', sans-serif;
-	margin: 0;
-	padding:0;
+  background: #fff;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 .container {
-	width: 400px;
-	margin: 100px auto;
-	display: block;
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 li * {
-	float: left;
+  float: left;
 }
 li, h3 {
-	clear: both;
-	list-style: none;
+  clear:both;
+  list-style:none;
 }
 input, button {
-	outline: none;
+  outline: none;
 }
 button {
   background: none;
@@ -34,8 +36,6 @@ button {
 button:hover {
   color: #333;
 }
-
-
 /* Heading */
 h3,
 label[for='new-task'] {
@@ -63,7 +63,6 @@ input[type="text"]:focus {
   color: #333;
 }
 
-
 /* New Task */
 label[for='new-task'] {
   display: block;
@@ -76,7 +75,6 @@ input#new-task {
 p > button:hover {
   color: #0FC57C;
 }
-
 
 /* Task list */
 li {
@@ -102,13 +100,11 @@ li > .delete:hover {
   color: #CF2323;
 }
 
-
 /* Completed */
 #completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
-
 
 /* Edit Task */
 ul li input[type=text] {
@@ -122,4 +118,3 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
   display:none;
 }
-
